@@ -77,7 +77,15 @@ export default Vue.extend({
   methods: {
     openMenu: function(): void {
       this.opened = !this.opened;
+    },
+    checkMedia: function(): void {
+      if (window.matchMedia('(min-width: 1024px)').matches) this.opened = true;
+      else this.opened = false;
     }
+  },
+  mounted: function(): void {
+    this.checkMedia();
+    window.addEventListener('resize', this.checkMedia);
   },
 })
 </script>
