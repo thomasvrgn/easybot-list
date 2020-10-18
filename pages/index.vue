@@ -9,6 +9,12 @@
         <p class="text-gray-600 mt-4">
           EasyList is a site and bot allowing you to promote your bot for free in order to attract more audience and increase your influence.
         </p>
+        <button class="bg-indigo-500 flex flex-row py-1 px-4 rounded mt-4 focus:outline-none">
+          <span class="mr-2 text-white font-light">
+            Start using 
+          </span>
+          <logo />
+        </button>
       </div>
     </header>
   </main>
@@ -17,10 +23,12 @@
 <script lang="ts">
 import Vue from 'vue'
 import navbar from '~/layouts/navbar.vue'
+import logo from '~/components/logo.vue'
 
 export default Vue.extend({
   components: {
     navbar,
+    logo,
   },
 })
 </script>
