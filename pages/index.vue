@@ -1,9 +1,9 @@
 <template>
   <main>
     <navbar />
-    <header class="bg-indigo-100 py-8 px-8 mx-auto">
-      <div class="container mx-auto w-2/3">
-        <h1 class="text-2xl font-semibold text-gray-700">
+    <header class="bg-gray-200 py-8 px-8 mx-auto">
+      <div class="container mx-auto w-2/3 lg:w-1/4">
+        <h1 class="text-2xl font-semibold text-gray-700 lg:w-3/5">
           Promoting your bots has never been easier
         </h1>
         <p class="text-gray-600 mt-4">
