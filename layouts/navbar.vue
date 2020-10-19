@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-gray-800 flex flex-col py-4 lg:py-2 px-4 lg:flex-row">
+  <nav class="bg-gray-800 flex flex-col py-4 lg:py-2 px-10 lg:flex-row">
     <div class="flex flex-auto justify-center lg:flex-initial">
       <span class="flex flex-auto w-1/3 lg:hidden">
         <span class="flex items-center text-gray-400 cursor-pointer" @click=openMenu>
